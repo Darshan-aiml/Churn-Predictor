@@ -3,12 +3,10 @@ import pandas as pd
 from pycaret.classification import load_model, predict_model
 from flask_cors import CORS
 
-app = Flask(__name__)   # Make sure this comes BEFORE CORS(app)
-CORS(app)               # CORS is applied after app is created
+app = Flask(__name__)   
+CORS(app)               
 
 
-
-# Load PyCaret model
 model = load_model('best_churn_model')
 
 @app.route('/predict', methods=['POST'])
