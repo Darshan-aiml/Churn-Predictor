@@ -1,0 +1,573 @@
+2025-07-16 17:36:24,681:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 17:36:24,681:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 17:36:24,681:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 17:36:24,681:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 17:36:27,988:INFO:Initializing load_model()
+2025-07-16 17:36:27,988:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 17:41:56,061:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 17:41:56,061:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 17:41:56,062:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 17:41:56,062:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 17:41:56,739:INFO:Initializing load_model()
+2025-07-16 17:41:56,739:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 17:45:50,844:INFO:Initializing predict_model()
+2025-07-16 17:45:50,845:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x1341d3c10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['customerID', 'gender', 'Partner',
+                                             'Depende...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['customerID'],
+                                    transformer=TargetEncoder(cols=['customerID'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KNeighborsClassifier(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x1342931c0>)
+2025-07-16 17:45:50,845:INFO:Checking exceptions
+2025-07-16 17:45:50,845:INFO:Preloading libraries
+2025-07-16 17:45:50,847:INFO:Set up data.
+2025-07-16 17:45:50,854:INFO:Set up index.
+2025-07-16 17:46:29,276:INFO:Initializing predict_model()
+2025-07-16 17:46:29,276:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x1342f5f30>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['customerID', 'gender', 'Partner',
+                                             'Depende...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['customerID'],
+                                    transformer=TargetEncoder(cols=['customerID'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KNeighborsClassifier(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x1348165f0>)
+2025-07-16 17:46:29,276:INFO:Checking exceptions
+2025-07-16 17:46:29,277:INFO:Preloading libraries
+2025-07-16 17:46:29,279:INFO:Set up data.
+2025-07-16 17:46:29,298:INFO:Set up index.
+2025-07-16 17:58:22,557:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 17:58:22,558:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 17:58:22,558:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 17:58:22,558:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 17:58:23,232:INFO:Initializing load_model()
+2025-07-16 17:58:23,232:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 18:00:26,052:INFO:Initializing predict_model()
+2025-07-16 18:00:26,053:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x1344a3b50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['customerID', 'gender', 'Partner',
+                                             'Depende...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['customerID'],
+                                    transformer=TargetEncoder(cols=['customerID'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KNeighborsClassifier(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x134563130>)
+2025-07-16 18:00:26,053:INFO:Checking exceptions
+2025-07-16 18:00:26,053:INFO:Preloading libraries
+2025-07-16 18:00:26,056:INFO:Set up data.
+2025-07-16 18:00:26,065:INFO:Set up index.
+2025-07-16 18:05:04,948:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:05:04,949:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:05:04,949:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:05:04,949:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:05:05,708:INFO:Initializing load_model()
+2025-07-16 18:05:05,708:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 18:08:18,060:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:08:18,060:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:08:18,060:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:08:18,060:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:08:18,782:INFO:Initializing load_model()
+2025-07-16 18:08:18,782:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 18:09:05,133:INFO:Initializing predict_model()
+2025-07-16 18:09:05,135:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x13473bc10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['customerID', 'gender', 'Partner',
+                                             'Depende...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['customerID'],
+                                    transformer=TargetEncoder(cols=['customerID'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KNeighborsClassifier(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x1347fb130>)
+2025-07-16 18:09:05,135:INFO:Checking exceptions
+2025-07-16 18:09:05,135:INFO:Preloading libraries
+2025-07-16 18:09:05,137:INFO:Set up data.
+2025-07-16 18:09:05,145:INFO:Set up index.
+2025-07-16 18:13:47,318:INFO:Initializing predict_model()
+2025-07-16 18:13:47,320:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x1348664d0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['customerID', 'gender', 'Partner',
+                                             'Depende...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['customerID'],
+                                    transformer=TargetEncoder(cols=['customerID'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KNeighborsClassifier(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x134d1e5f0>)
+2025-07-16 18:13:47,320:INFO:Checking exceptions
+2025-07-16 18:13:47,320:INFO:Preloading libraries
+2025-07-16 18:13:47,323:INFO:Set up data.
+2025-07-16 18:13:47,332:INFO:Set up index.
+2025-07-16 18:17:25,849:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:17:25,850:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:17:25,850:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:17:25,850:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:17:26,514:INFO:Initializing load_model()
+2025-07-16 18:17:26,514:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 18:19:14,370:INFO:Initializing predict_model()
+2025-07-16 18:19:14,371:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x136b77c10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['customerID', 'gender', 'Partner',
+                                             'Depende...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['customerID'],
+                                    transformer=TargetEncoder(cols=['customerID'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KNeighborsClassifier(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x136c371c0>)
+2025-07-16 18:19:14,371:INFO:Checking exceptions
+2025-07-16 18:19:14,371:INFO:Preloading libraries
+2025-07-16 18:19:14,374:INFO:Set up data.
+2025-07-16 18:19:14,382:INFO:Set up index.
+2025-07-16 18:28:30,379:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:28:30,380:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:28:30,380:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:28:30,380:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:28:31,650:INFO:Initializing load_model()
+2025-07-16 18:28:31,650:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 18:35:38,688:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:35:38,689:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:35:38,689:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:35:38,689:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:35:39,541:INFO:Initializing load_model()
+2025-07-16 18:35:39,541:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 18:40:52,745:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:40:52,745:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:40:52,745:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:40:52,745:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:40:55,903:INFO:Initializing load_model()
+2025-07-16 18:40:55,903:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 18:44:47,670:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:44:47,670:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:44:47,670:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:44:47,670:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 18:44:48,550:INFO:Initializing load_model()
+2025-07-16 18:44:48,550:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 19:01:56,671:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:01:56,672:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:01:56,672:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:01:56,672:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:01:57,998:INFO:Initializing load_model()
+2025-07-16 19:01:57,998:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 19:02:05,274:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:02:05,274:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:02:05,274:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:02:05,274:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:02:06,121:INFO:Initializing load_model()
+2025-07-16 19:02:06,121:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 19:04:44,230:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:04:44,230:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:04:44,230:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:04:44,230:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:04:45,665:INFO:Initializing load_model()
+2025-07-16 19:04:45,665:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 19:04:47,674:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:04:47,674:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:04:47,674:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:04:47,674:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:04:48,345:INFO:Initializing load_model()
+2025-07-16 19:04:48,345:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 19:19:02,936:INFO:Initializing predict_model()
+2025-07-16 19:19:02,937:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x1358c0d30>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['customerID', 'gender', 'Partner',
+                                             'Depende...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['customerID'],
+                                    transformer=TargetEncoder(cols=['customerID'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KNeighborsClassifier(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x1355e5630>)
+2025-07-16 19:19:02,937:INFO:Checking exceptions
+2025-07-16 19:19:02,937:INFO:Preloading libraries
+2025-07-16 19:19:02,944:INFO:Set up data.
+2025-07-16 19:19:02,966:INFO:Set up index.
+2025-07-16 19:20:33,470:INFO:Initializing predict_model()
+2025-07-16 19:20:33,471:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x1358c3310>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['customerID', 'gender', 'Partner',
+                                             'Depende...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['customerID'],
+                                    transformer=TargetEncoder(cols=['customerID'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KNeighborsClassifier(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x1355e6950>)
+2025-07-16 19:20:33,471:INFO:Checking exceptions
+2025-07-16 19:20:33,471:INFO:Preloading libraries
+2025-07-16 19:20:33,474:INFO:Set up data.
+2025-07-16 19:20:33,486:INFO:Set up index.
+2025-07-16 19:39:06,119:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:39:06,120:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:39:06,120:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:39:06,120:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:40:13,243:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:40:13,244:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:40:13,244:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:40:13,244:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:42:20,382:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:42:20,382:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:42:20,382:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:42:20,382:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:45:00,988:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:45:00,988:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:45:00,988:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:45:00,988:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:47:10,642:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:47:10,643:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:47:10,643:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:47:10,643:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:47:11,588:INFO:Initializing load_model()
+2025-07-16 19:47:11,588:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 19:47:14,020:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:47:14,020:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:47:14,020:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:47:14,020:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 19:47:14,682:INFO:Initializing load_model()
+2025-07-16 19:47:14,683:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 20:30:22,801:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 20:30:22,802:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 20:30:22,802:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 20:30:22,802:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 20:30:23,721:INFO:Initializing load_model()
+2025-07-16 20:30:23,721:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 20:30:25,540:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 20:30:25,540:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 20:30:25,540:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 20:30:25,540:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 20:30:26,218:INFO:Initializing load_model()
+2025-07-16 20:30:26,218:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 20:30:35,819:INFO:Initializing predict_model()
+2025-07-16 20:30:35,819:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x137b6dd80>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['customerID', 'gender', 'Partner',
+                                             'Depende...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['customerID'],
+                                    transformer=TargetEncoder(cols=['customerID'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KNeighborsClassifier(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x137b6a5f0>)
+2025-07-16 20:30:35,819:INFO:Checking exceptions
+2025-07-16 20:30:35,819:INFO:Preloading libraries
+2025-07-16 20:30:35,821:INFO:Set up data.
+2025-07-16 20:30:35,828:INFO:Set up index.
+2025-07-16 20:35:57,380:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 20:35:57,380:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 20:35:57,380:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 20:35:57,380:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-07-16 20:35:58,330:INFO:Initializing load_model()
+2025-07-16 20:35:58,330:INFO:load_model(model_name=best_churn_model, platform=None, authentication=None, verbose=True)
+2025-07-16 20:36:12,983:INFO:Initializing predict_model()
+2025-07-16 20:36:12,985:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x137b6fb80>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['customerID', 'gender', 'Partner',
+                                             'Depende...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['customerID'],
+                                    transformer=TargetEncoder(cols=['customerID'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KNeighborsClassifier(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x137b6b760>)
+2025-07-16 20:36:12,985:INFO:Checking exceptions
+2025-07-16 20:36:12,985:INFO:Preloading libraries
+2025-07-16 20:36:12,987:INFO:Set up data.
+2025-07-16 20:36:12,994:INFO:Set up index.
+2025-07-16 20:57:33,256:INFO:Initializing predict_model()
+2025-07-16 20:57:33,258:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x137b6fa30>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['customerID', 'gender', 'Partner',
+                                             'Depende...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['customerID'],
+                                    transformer=TargetEncoder(cols=['customerID'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KNeighborsClassifier(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x137f3d480>)
+2025-07-16 20:57:33,258:INFO:Checking exceptions
+2025-07-16 20:57:33,258:INFO:Preloading libraries
+2025-07-16 20:57:33,261:INFO:Set up data.
+2025-07-16 20:57:33,270:INFO:Set up index.
+2025-07-16 20:57:38,242:INFO:Initializing predict_model()
+2025-07-16 20:57:38,242:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x137ed1f00>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['customerID', 'gender', 'Partner',
+                                             'Depende...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['customerID'],
+                                    transformer=TargetEncoder(cols=['customerID'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KNeighborsClassifier(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x137b6a050>)
+2025-07-16 20:57:38,242:INFO:Checking exceptions
+2025-07-16 20:57:38,242:INFO:Preloading libraries
+2025-07-16 20:57:38,242:INFO:Set up data.
+2025-07-16 20:57:38,247:INFO:Set up index.
+2025-07-16 21:03:08,795:INFO:Initializing predict_model()
+2025-07-16 21:03:08,795:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x137b6e800>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('label_encoding',
+                 TransformerWrapperWithInverse(transformer=LabelEncoder())),
+                ('numerical_imputer',
+                 TransformerWrapper(include=['SeniorCitizen', 'tenure',
+                                             'MonthlyCharges', 'TotalCharges'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['customerID', 'gender', 'Partner',
+                                             'Depende...
+                                                                    'StreamingTV',
+                                                                    'StreamingMovies',
+                                                                    'Contract',
+                                                                    'PaymentMethod'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('rest_encoding',
+                 TransformerWrapper(include=['customerID'],
+                                    transformer=TargetEncoder(cols=['customerID'],
+                                                              handle_missing='return_nan'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model', KNeighborsClassifier(n_jobs=-1))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x137f3d7e0>)
+2025-07-16 21:03:08,795:INFO:Checking exceptions
+2025-07-16 21:03:08,795:INFO:Preloading libraries
+2025-07-16 21:03:08,798:INFO:Set up data.
+2025-07-16 21:03:08,810:INFO:Set up index.
