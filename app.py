@@ -8,9 +8,7 @@ CORS(app)
 
 
 model = load_model('best_churn_model')
-@app.route("/", methods=["GET"])
-def home():
-    return "Churn Prediction API is up and running!"
+
 
 @app.route('/predict', methods=['POST'])
 def predict():
