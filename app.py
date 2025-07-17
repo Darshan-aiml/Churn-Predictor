@@ -8,6 +8,9 @@ CORS(app)
 
 
 model = load_model('best_churn_model')
+@app.route("/", methods=["GET"])
+def home():
+    return "Churn Prediction API is up and running!"
 
 @app.route('/predict', methods=['POST'])
 def predict():
@@ -28,6 +31,7 @@ def predict():
     
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)    
