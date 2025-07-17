@@ -144,6 +144,3 @@ def index():
 
 ---
 
-## 👨‍💻 Author
-
-Built with ❤️ by [Your Name]
