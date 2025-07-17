@@ -10,11 +10,14 @@ It consists of a Flask API backend and a React frontend.
 🔗 RESTful API integration
 ☁️ Deployable on platforms like Railway, Render, or AWS
 🧠 Tech Stack
+
+
 Layer	  Technology
 Backend	 Python, Flask, PyCaret
 Frontend	React.js (Vite)
 ML Model	PyCaret AutoML
 Hosting	Railway (or any other cloud)
+
 📁 Project Structure
 automl-churn-pipeline/
 ├── app.py               # Flask backend
@@ -26,14 +29,17 @@ automl-churn-pipeline/
 │   └── src/
 │       └── App.jsx
 └── dist/                # Production build of React app (auto-generated)
+
 ⚙️ Setup Instructions
 1. Clone the repository
 
 git clone https://github.com/your-username/automl-churn-pipeline.git
 cd automl-churn-pipeline
+
 2. Install Python dependencies
 
 pip install -r requirements.txt
+
 3. Train or load PyCaret model (if not already)
 
 # If not present, generate best_churn_model.pkl using PyCaret
